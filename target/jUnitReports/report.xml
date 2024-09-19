@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="126.018" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="fetch Highest winning streak" name="fetch Highest winning streak" time="10.71">
+<system-out><![CDATA[
+Given Home page of ipl and fetch data.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="fetch Highest winning streak" name="&lt;scen_out_row_num&gt; - #1.1: Scenario Outline Row 1" time="1.272">
+<system-out><![CDATA[
+Given Step from 'Scenario Outline Row 1' in 'scenario-outlines' feature file.passed
+]]></system-out>
+</testcase>
+<testcase classname="fetch Highest winning streak" name="&lt;scen_out_row_num&gt; - #1.2: Scenario Outline Row 2" time="1.46">
+<system-out><![CDATA[
+Given Step from 'Scenario Outline Row 2' in 'scenario-outlines' feature file.passed
+]]></system-out>
+</testcase>
+<testcase classname="PNR Generation" name="Generate PNR reference with Pay Later option" time="112.359">
+<system-out><![CDATA[
+Given Home page of fly dubai Book flight and route information to search route.passed
+And select departure flight tab and chose fare band.........................passed
+And select return flight and chose fare band................................passed
+When baggae information displayed select Extra baggage......................passed
+And click continue to passenger details.....................................passed
+When passenger details page display fill passgenger details.................passed
+Then Reveiw booking.........................................................passed
+And Generate Pnr with Pay Later Option......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
